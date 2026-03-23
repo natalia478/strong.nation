@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+
+<h1>Entrar</h1>
+
+<input type="text" placeholder="Nome">
+<input type="password" placeholder="Senha">
+
+<br><br>
+
+<button onclick="irCliente()">Entrar como Cliente</button>
+<button onclick="irAcademia()">Entrar como Academia</button>
+
+<br><br>
+
+<a href="cadastro.html">Criar conta</a>
+
+<script>
+function irCliente() {
+    window.location.href = "cliente.html";
+}
+
+function irAcademia() {
+    window.location.href = "academia.html";
+}
+</script>
+
+</body>
+</html>

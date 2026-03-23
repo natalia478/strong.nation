@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Academia</title>
+</head>
+<body>
+
+<h1>Minhas Academias</h1>
+
+<div class="card">
+    <h2>Power Fit</h2>
+    <p>Endereço: Centro</p>
+    <p>Avaliação: 4.5</p>
+
+    <button>Editar</button>
+    <button onclick="deletar()">Excluir</button>
+</div>
+
+<div class="card">
+    <h2>Strong Life</h2>
+    <p>Endereço: Zona Norte</p>
+    <p>Avaliação: 5.0</p>
+
+    <button>Editar</button>
+    <button onclick="deletar()">Excluir</button>
+</div>
+
+<br><br>
+
+<a href="index.html">Sair</a>
+
+<script>
+function deletar() {
+    if (confirm("Tem certeza que deseja excluir esta academia?")) {
+        alert("Academia excluída!");
+    }
+}
+</script>
+
+</body>
+</html>

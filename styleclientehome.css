@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+    height: 100vh;
+    background-image: url(imagens/academiafundo3.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2{
+    color: white;
+}
+
+p{
+    color:beige;
+
+
+}
+
+h1{
+    color: white;
+}
+
+.card{
+     backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(6px);
+    width: 250px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    padding-right: 0px;
+    transition: 0.3s;  
+    margin-left: 12%;
+}
+
+.card:hover{
+    transform: scale(1.10);
+}
+.barrinhas{
+    width:30px;
+    cursor: pointer;
+    text-align: right;
+    margin-left: auto;
+    padding-right: 36px;
+    padding-bottom: 10px;
+}
+
+footer{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top:85%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+}
+
+.barrinhas span{
+   display: block;
+   height: 4px;
+   background: white;
+   margin: 2px 0;
+   border-radius: 2px;
+   border: 3px solid black;
+   border-radius: 10px 10px;  
+}
+
+.barrinhas:hover span{
+    background-color: rgb(45, 94, 221)
+}
+.container-categorias{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+}
